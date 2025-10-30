@@ -1,0 +1,46 @@
+# Dependencies (reinstalled in EAS build environment)
+node_modules
+node_modules/
+
+# Expo local data and build artifacts
+.expo
+.expo/
+.expo-shared
+dist
+build
+android/app/build
+android/.gradle/
+ios/build
+web-build
+
+# Editor and IDE settings
+.vscode
+.vscode/
+.idea
+
+# Logs and temp files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Version control
+.git
+.gitignore
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Cache and lock files that can blow up upload size
+package-lock.json
+yarn.lock
+
+# Large or raw assets you don’t actually use in production
+assets/raw/
+assets/videos/
+assets/tmp/
+assets/test/
+
+# Optional: ignore templates if not part of final app
+templates/
